@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+        <!-- BOOTSTRAO 4 -->
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous">
+        <!-- BOOTSTRAO 4 -->
+        <script src="https://kit.fontawesome.com/faf7501581.js" crossorigin="anonymous"></script>
+         <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" 
+        rel="stylesheet"> 
+        <!--<link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet"> -->
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href= "/css/main.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><%= title %></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/"><i class = "fas fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class ="fas fa-building"></i>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact"><i class = "fas fa-envelope"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <header class = "row">
+            <div class="col-lg-4 text-center">
+                <img src="/images/pews-logo.png" alt="Se3cret Drink">
+            </div>
+    <!--SECTION ONE-->
+    <div class = "container-fluid" id = "about">
+        <div class = "wor bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-6">
+                <h3> It's a se3cret from 1995</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi 
+                quasi minima voluptatibus ullam voluptates at tempora illo assumenda, 
+                magni animi enim rerum reiciendis maiores! 
+                Fugiat numquam perspiciatis quod possimus quae.</p>
+            </div>
+        </div>
+    </div>
+    
+        </header>
+    </div>
+    <footer class = "bg-light text-center p-2">
+        <p class = "h3">
+            Se3cret 2020 &copy;
+        </p>
+    </footer>
+</body>
+
+</html>
